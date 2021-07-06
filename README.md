@@ -34,3 +34,7 @@ para hacer uso del api se debe llevar a cabo los siguientes pasos:
 	a. El endpoint riene la siguiente url: http://18.217.239.190:8080/apirestmutantes/stats
 	b. El verbo a usar es GET.
 	c. El resultado sera una respuesta con la siguiente estructura: {"count_mutant_dna":3,"count_human_dna":1,"ratio":3.0}
+
+4. Si desean corroborar el Code coverage pueden correr el comando .\mvnw.cmd test, y luego buscar el siguiente archivo \target\site\jacoco\index.html en el que se puede encontrar un 90%
+
+ 
